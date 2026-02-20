@@ -3,7 +3,7 @@
 | NIM |  254107020090|
 | Nama |  Rajendra Putra Maheswara |
 | Kelas | TI - 1F |
-| Repository | [link] (https://github.com/AndraMaheswara/PrakASD) |
+| Repository | (https://github.com/AndraMaheswara/PrakASD) |
 
 
 
