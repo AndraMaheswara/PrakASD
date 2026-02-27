@@ -7,12 +7,12 @@
 
 
 
-## 2.1 Percobaan 1: Deklarasi Class, Atribut dan Method
-# 2.1.2 Verifikasi Hasil Percobaan
+# 2.1 Percobaan 1: Deklarasi Class, Atribut dan Method
+### 2.1.2 Verifikasi Hasil Percobaan
 
 (image)
 
-# 2.1.3 Pertanyaan
+### 2.1.3 Pertanyaan
 1. Sebutkan dua karakteristik class atau object!
 
 Atribut (State / Properties): Data atau variabel yang menyimpan informasi tentang keadaan suatu objek (misalnya: nama, nim, ipk).
