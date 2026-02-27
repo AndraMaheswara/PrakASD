@@ -62,11 +62,11 @@ Jika IPK di bawah 2.0 (kondisi else), maka kinerjanya "Kurang".
 
 Return Value: String yang menunjukan evaluasi kerja.
 
-## 2.2 Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
-# 2.2.2 Verifikasi Hasil Percobaan
+# 2.2 Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
+### 2.2.2 Verifikasi Hasil Percobaan
 (image)
 
-# 2.2.3 Pertanyaan
+### 2.2.3 Pertanyaan
 1. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses
 instansiasi! Apa nama object yang dihasilkan?
 
@@ -80,5 +80,38 @@ menggunakan operator titik ( . ) setelah nama objek. mhs1.nama = "Muhammad Ali F
 
 karena terdapat perubahan nilai atribut pada objek di antara kedua pemanggilan tersebut
 
-## 2.3 Percobaan 3: Membuat Konstruktor
+# 2.3 Percobaan 3: Membuat Konstruktor
 
+###2.3.2 Verifikasi Hasil Percobaan
+
+(image)
+
+###2.3.3 Pertanyaan
+
+1. Pada class Mahasiswa di Percobaan 3, tunjukkan baris kode program yang digunakan untuk
+mendeklarasikan konstruktor berparameter!
+
+public Mahasiswa(String nm, String nim, double ipk, String kls) {
+    nama = nm;
+    this.nim = nim;
+    this.ipk = ipk;
+    kelas = kls;
+
+2. Perhatikan class MahasiswaMain. Apa sebenarnya yang dilakukan pada baris program
+berikut?
+
+instansiasi objek baru
+
+3. Hapus konstruktor default pada class Mahasiswa, kemudian compile dan run program.
+Bagaimana hasilnya? Jelaskan mengapa hasilnya demikian!
+
+Program akan mengalami error pada saat kompilasi (compile-time error).
+
+4. Setelah melakukan instansiasi object, apakah method di dalam class Mahasiswa harus diakses
+secara berurutan? Jelaskan alasannya! tidak harus urut, objek tersebut yang dapat dipanggil kapan saja selama objeknya sudah terbentuk
+
+5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor
+berparameter dari class Mahasiswa!
+(image)
+
+# 2.4 Latihan Praktikum
