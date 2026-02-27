@@ -10,7 +10,7 @@
 # 2.1 Percobaan 1: Deklarasi Class, Atribut dan Method
 ### 2.1.2 Verifikasi Hasil Percobaan
 
-(image)
+![Screenshot](images/2.1.2.png)
 
 ### 2.1.3 Pertanyaan
 1. Sebutkan dua karakteristik class atau object!
@@ -65,7 +65,7 @@ Return Value: String yang menunjukan evaluasi kerja.
 
 # 2.2 Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
 ### 2.2.2 Verifikasi Hasil Percobaan
-(image)
+![Screenshot](images/2.2.2.png)
 
 ### 2.2.3 Pertanyaan
 1. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses
@@ -113,6 +113,6 @@ secara berurutan? Jelaskan alasannya! tidak harus urut, objek tersebut yang dapa
 
 5. Buat object baru dengan nama mhs<NamaMahasiswa> menggunakan konstruktor
 berparameter dari class Mahasiswa!
-(image)
+![Screenshot](images/2.3.3.png)
 
 # 2.4 Latihan Praktikum
