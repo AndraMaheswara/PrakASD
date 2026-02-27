@@ -8,11 +8,11 @@
 
 
 ## 2.1 Percobaan 1: Deklarasi Class, Atribut dan Method
-## 2.1.2 Verifikasi Hasil Percobaan
+# 2.1.2 Verifikasi Hasil Percobaan
 
 (image)
 
-##2.1.3 Pertanyaan
+# 2.1.3 Pertanyaan
 1. Sebutkan dua karakteristik class atau object!
 
 Atribut (State / Properties): Data atau variabel yang menyimpan informasi tentang keadaan suatu objek (misalnya: nama, nim, ipk).
@@ -63,10 +63,10 @@ Jika IPK di bawah 2.0 (kondisi else), maka kinerjanya "Kurang".
 Return Value: String yang menunjukan evaluasi kerja.
 
 ## 2.2 Percobaan 2: Instansiasi Object, serta Mengakses Atribut dan Method
-## 2.2.2 Verifikasi Hasil Percobaan
+# 2.2.2 Verifikasi Hasil Percobaan
 (image)
 
-## 2.2.3 Pertanyaan
+# 2.2.3 Pertanyaan
 1. Pada class MahasiswaMain, tunjukkan baris kode program yang digunakan untuk proses
 instansiasi! Apa nama object yang dihasilkan?
 
@@ -77,7 +77,8 @@ Mahasiswa mhs1 = new Mahasiswa(); dan objek nya adalah mhs1
 menggunakan operator titik ( . ) setelah nama objek. mhs1.nama = "Muhammad Ali Farhan"; untuk mengakses nama
 
 3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
-karena terdapat perubahan nilai atribut pada objek di antara kedua pemanggilan tersebut:
 
+karena terdapat perubahan nilai atribut pada objek di antara kedua pemanggilan tersebut
 
+## 2.3 Percobaan 3: Membuat Konstruktor
 
