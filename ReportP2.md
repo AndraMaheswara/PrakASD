@@ -34,6 +34,7 @@ ipk (double)
 3. Ada berapa method yang dimiliki oleh class tersebut? Sebutkan apa saja methodnya!
 
 4 method 
+
 tampilkanInformasi() Menampilkan data mahasiswa ke layar.
 
 ubahKelas(String kelasBaru) Mengubah nilai dari atribut kelas.
