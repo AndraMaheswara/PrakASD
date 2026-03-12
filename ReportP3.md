@@ -23,7 +23,7 @@ atribut dan sekaligus method? Jelaskan!
 konstruktur pada baris program berikut?
 
 4. Apa yang dilakukan oleh kode program berikut?
-```arrayofMahasiswa [0] = new Mahasiswa () ;`
+```arrayofMahasiswa [0] = new Mahasiswa () ;``
 arrayOfMahasiswa [0].nim = "244107060033";
 arrayofMahasiswa [0] . nama = "AGNES TITANIA KINANTI";
 arrayofMahasiswa [0] . kelas = "SIB-1E";
