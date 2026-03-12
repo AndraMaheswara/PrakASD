@@ -17,8 +17,8 @@
 atribut dan sekaligus method? Jelaskan!
 
 2. Apa yang dilakukan oleh kode program berikut?
+   ```Mahasiswa[] arrayOfMahasiswa = new Mahasiswa[3];```
    
-```Mahasiswa[] arrayOfMahasiswa = new Mahasiswa[3];```
 4. Apakah class Mahasiswa memiliki konstruktor? Jika tidak, kenapa bisa dilakukan pemanggilan
 konstruktur pada baris program berikut?
 
