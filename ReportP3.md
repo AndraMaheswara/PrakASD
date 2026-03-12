@@ -23,15 +23,11 @@ atribut dan sekaligus method? Jelaskan!
 konstruktur pada baris program berikut?
 
 4. Apa yang dilakukan oleh kode program berikut?
-```arrayofMahasiswa [0] = new Mahasiswa () ;```
-
-```arrayOfMahasiswa [0].nim = "244107060033";```
-
-```arrayofMahasiswa [0] . nama = "AGNES TITANIA KINANTI";```
-
-```arrayofMahasiswa [0] . kelas = "SIB-1E";```
-
-```arrayOfMahasiswa [0].ipk = (float) 3.75; ```
+<pre>```arrayofMahasiswa [0] = new Mahasiswa () ;
+arrayOfMahasiswa [0].nim = "244107060033";
+arrayofMahasiswa [0] . nama = "AGNES TITANIA KINANTI";
+arrayofMahasiswa [0] . kelas = "SIB-1E";
+arrayOfMahasiswa [0].ipk = (float) 3.75; ```</pre>
 
 6. Mengapa class Mahasiswa dan MahasiswaDemo dipisahkan pada uji coba 3.2?
 
