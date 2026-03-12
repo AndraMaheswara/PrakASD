@@ -24,9 +24,11 @@ Tidak. Namun idealnya memiliki keduanya.
    Membuat tempat untuk 3 object Mahasiswa.
    
 3. Apakah class Mahasiswa memiliki konstruktor? Jika tidak, kenapa bisa dilakukan pemanggilan
-konstruktur pada baris program berikut? Sudah ada Default Constructor dari java itu sendiri.
+konstruktur pada baris program berikut?
 
-4. Apa yang dilakukan oleh kode program berikut?
+Sudah ada Default Constructor dari java itu sendiri.
+
+5. Apa yang dilakukan oleh kode program berikut?
 <pre>arrayofMahasiswa [0] = new Mahasiswa () ;
 arrayOfMahasiswa [0].nim = "244107060033";
 arrayofMahasiswa [0] . nama = "AGNES TITANIA KINANTI";
