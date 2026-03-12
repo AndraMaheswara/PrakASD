@@ -19,10 +19,15 @@ atribut dan sekaligus method? Jelaskan!
 2. Apa yang dilakukan oleh kode program berikut?
    ```Mahasiswa[] arrayOfMahasiswa = new Mahasiswa[3];```
    
-4. Apakah class Mahasiswa memiliki konstruktor? Jika tidak, kenapa bisa dilakukan pemanggilan
+3. Apakah class Mahasiswa memiliki konstruktor? Jika tidak, kenapa bisa dilakukan pemanggilan
 konstruktur pada baris program berikut?
 
-5. Apa yang dilakukan oleh kode program berikut?
+4. Apa yang dilakukan oleh kode program berikut?
+```arrayofMahasiswa [0] = new Mahasiswa () ;
+arrayOfMahasiswa [0].nim = "244107060033";
+arrayofMahasiswa [0] . nama = "AGNES TITANIA KINANTI";
+arrayofMahasiswa [0] . kelas = "SIB-1E";
+arrayOfMahasiswa [0].ipk = (float) 3.75;```
 
 6. Mengapa class Mahasiswa dan MahasiswaDemo dipisahkan pada uji coba 3.2?
 
