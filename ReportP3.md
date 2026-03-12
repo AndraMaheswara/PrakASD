@@ -16,7 +16,7 @@
 1. Berdasarkan uji coba 3.2, apakah class yang akan dibuat array of object harus selalu memiliki
 atribut dan sekaligus method? Jelaskan!
 
-Tidak. Namun idealnya memiliki keduanya.
+   Tidak. Namun idealnya memiliki keduanya.
 
 2. Apa yang dilakukan oleh kode program berikut?
    ```Mahasiswa[] arrayOfMahasiswa = new Mahasiswa[3];```
@@ -26,7 +26,7 @@ Tidak. Namun idealnya memiliki keduanya.
 3. Apakah class Mahasiswa memiliki konstruktor? Jika tidak, kenapa bisa dilakukan pemanggilan
 konstruktur pada baris program berikut?
 
-Sudah ada Default Constructor dari java itu sendiri.
+   Sudah ada Default Constructor dari java itu sendiri.
 
 5. Apa yang dilakukan oleh kode program berikut?
 <pre>arrayofMahasiswa [0] = new Mahasiswa () ;
@@ -35,7 +35,7 @@ arrayofMahasiswa [0] . nama = "AGNES TITANIA KINANTI";
 arrayofMahasiswa [0] . kelas = "SIB-1E";
 arrayOfMahasiswa [0].ipk = (float) 3.75;</pre>
 
-Instansiasi object dan pengisian data.
+   Instansiasi object dan pengisian data.
 
 5. Mengapa class Mahasiswa dan MahasiswaDemo dipisahkan pada uji coba 3.2?
 
