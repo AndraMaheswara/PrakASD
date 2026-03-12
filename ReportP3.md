@@ -15,7 +15,7 @@
 ### 3.2.3 Pertanyaan
 1. Berdasarkan uji coba 3.2, apakah class yang akan dibuat array of object harus selalu memiliki
 atribut dan sekaligus method? Jelaskan!
-''aaaa''
+'aaaa'
 2. Apa yang dilakukan oleh kode program berikut?
 
 3. Apakah class Mahasiswa memiliki konstruktor? Jika tidak, kenapa bisa dilakukan pemanggilan
