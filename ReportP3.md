@@ -41,4 +41,22 @@ arrayOfMahasiswa [0].ipk = (float) 3.75;</pre>
 
    Class Mahasiswa bertindak sebagai data model dan Class MahasiswaDemo bertindak sebagai Driver Class. Class Mahasiswa juga dapat dipakai di class lain jika diperlukan
 
+# 3.3 Menerima Input Isian Array Menggunakan Looping
+### 3.3.2 Verifikasi Hasil Percobaan
 
+(image)
+
+### 3.3.3 Pertanyaan
+
+
+
+# 3.4 Constructor Berparameter
+### 3.4.2 Verifikasi Hasil Percobaan
+
+(image)
+
+### 3.4.3 Pertanyaan
+
+
+
+# 3.5 Tugas
