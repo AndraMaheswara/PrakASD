@@ -10,7 +10,7 @@
 # 3.2 Membuat Array dari Object, Mengisi dan Menampilkan
 ### 3.2.2 Verifikasi Hasil Percobaan
 
-(image)
+![Screenshot](images/3.2.2.png)
 
 ### 3.2.3 Pertanyaan
 1. Berdasarkan uji coba 3.2, apakah class yang akan dibuat array of object harus selalu memiliki
@@ -44,12 +44,14 @@ arrayOfMahasiswa [0].ipk = (float) 3.75;</pre>
 # 3.3 Menerima Input Isian Array Menggunakan Looping
 ### 3.3.2 Verifikasi Hasil Percobaan
 
-(image)
+![Screenshot](images/3.3.2.png)
 
 ### 3.3.3 Pertanyaan
 
 1. Tambahkan method cetakInfo() pada class Mahasiswa kemudian modifikasi kode program
 pada langkah no 3.
+![Screenshot](images/3.3.3.1.png)
+![Screenshot](images/3.3.3.2png)
 
 2. Misalkan Anda punya array baru bertipe array of Mahasiswa dengan nama
 myArrayOfMahasiswa. Mengapa kode berikut menyebabkan error?
@@ -59,7 +61,9 @@ karena index nya masih kosong
 # 3.4 Constructor Berparameter
 ### 3.4.2 Verifikasi Hasil Percobaan
 
-(image)
+![Screenshot](images/3.4.1.1.png)
+![Screenshot](images/3.4.1.2.png)
+![Screenshot](images/3.4.1.3.png)
 
 ### 3.4.3 Pertanyaan
 
@@ -73,9 +77,13 @@ tersebut di class MatakuliahDemo untuk menambahkan data Matakuliah
 3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan method
 tersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
 
+![Screenshot](images/3.4.3.1.png)
+(gambar untuk nomor 2 dan 3)
+
 4. Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari
 array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
 
-
+![Screenshot](images/3.4.3.2.png)
 
 # 3.5 Tugas
+![Screenshot](images/3.5.png)
