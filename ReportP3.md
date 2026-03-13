@@ -48,6 +48,12 @@ arrayOfMahasiswa [0].ipk = (float) 3.75;</pre>
 
 ### 3.3.3 Pertanyaan
 
+1. Tambahkan method cetakInfo() pada class Mahasiswa kemudian modifikasi kode program
+pada langkah no 3.
+
+2. Misalkan Anda punya array baru bertipe array of Mahasiswa dengan nama
+myArrayOfMahasiswa. Mengapa kode berikut menyebabkan error?
+karena index nya masih kosong
 
 
 # 3.4 Constructor Berparameter
@@ -56,6 +62,19 @@ arrayOfMahasiswa [0].ipk = (float) 3.75;</pre>
 (image)
 
 ### 3.4.3 Pertanyaan
+
+1. Apakah suatu class dapat memiliki lebih dari 1 constructor? Jika iya, berikan contohnya
+
+Ya, tapi tipe parameter tiap konstruktor harus berbeda
+
+2. Tambahkan method tambahData() pada class Matakuliah, kemudian gunakan method
+tersebut di class MatakuliahDemo untuk menambahkan data Matakuliah
+
+3. Tambahkan method cetakInfo() pada class Matakuliah, kemudian gunakan method
+tersebut di class MatakuliahDemo untuk menampilkan data hasil inputan di layar
+
+4. Modifikasi kode program pada class MatakuliahDemo agar panjang (jumlah elemen) dari
+array of object Matakuliah ditentukan oleh user melalui input dengan Scanner
 
 
 
