@@ -10,6 +10,7 @@
 #5.2 Menghitung Nilai Faktorial dengan Algoritma Brute Force dan Divide and Conquer
 
 ###5.2.2. Verifikasi Hasil Percobaan
+
 ![Screenshot](images/5.2.2.png)
 
 ###5.2.3. Pertanyaan
@@ -21,9 +22,10 @@ perbedaan bagian kode pada penggunaan if dan else!
 
 2. Apakah memungkinkan perulangan pada method ```faktorialBF()``` diubah selain menggunakan
 for? Buktikan!
+
 ![Screenshot](images/5.2.3.2.png)
 
-3. Jelaskan perbedaan antara ```fakto *= i;``` dan ```int fakto = n * faktorialDC(n-1);``` !
+4. Jelaskan perbedaan antara ```fakto *= i;``` dan ```int fakto = n * faktorialDC(n-1);``` !
 
 ```fakto *= i``` dilakukan di dalam sebuah perulangan
 ```int fakto = n * faktorialDC(n-1)``` melakukanpemanggilan fungsi baru sebelum perkalian selesai dilakukan.
@@ -36,6 +38,7 @@ for? Buktikan!
 
 #5.3 Menghitung Hasil Pangkat dengan Algoritma Brute Force dan Divide and Conquer
 ###5.3.2. Verifikasi Hasil Percobaan
+
 ![Screenshot](images/5.3.2.png)
 ###5.3.3. Pertanyaan
 1. Jelaskan mengenai perbedaan 2 method yang dibuat yaitu ```pangkatBF()``` dan ```pangkatDC()```!
@@ -74,6 +77,7 @@ Cara Kerja ```pangkatDC()```: Masalah dipecah menjadi setengahnya secara terus m
 
 #5.4 Menghitung Sum Array dengan Algoritma Brute Force dan Divide and Conquer
 ###5.4.2. Verifikasi Hasil Percobaan
+
 ![Screenshot](images/5.4.2.png)
 
 ###5.4.3. Pertanyaan
@@ -98,4 +102,5 @@ Cara Kerja ```pangkatDC()```: Masalah dipecah menjadi setengahnya secara terus m
     Method ```totalDC()``` bekerja dengan membagi array secara terus-menerus menjadi dua bagian hingga mencapai Base Case. lalu dikembalikan ke atas dan dijumlahkan tahap demi tahap hingga menghasilkan total akhir.
 
 ###4.5 Latihan Praktikum
+
 ![Screenshot](images/5.5.png)
