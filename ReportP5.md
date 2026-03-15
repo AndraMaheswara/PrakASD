@@ -7,13 +7,13 @@
 
 
 
-#5.2 Menghitung Nilai Faktorial dengan Algoritma Brute Force dan Divide and Conquer
+# 5.2 Menghitung Nilai Faktorial dengan Algoritma Brute Force dan Divide and Conquer
 
-###5.2.2. Verifikasi Hasil Percobaan
+### 5.2.2. Verifikasi Hasil Percobaan
 
 ![Screenshot](images/5.2.2.png)
 
-###5.2.3. Pertanyaan
+### 5.2.3. Pertanyaan
 1. Pada base line Algoritma Divide Conquer untuk melakukan pencarian nilai faktorial, jelaskan
 perbedaan bagian kode pada penggunaan if dan else!
 
@@ -36,11 +36,12 @@ for? Buktikan!
 ```faktorialDC()``` (Divide & Conquer): Menggunakan cara rekursif (pemanggilan diri sendiri). Masalah besar dipecah menjadi bagian-bagian kecil sampai yang terkecil (base case), lalu hasilnya digabungkan kembali. Penulisan kode lebih ringkas namun menggunakan lebih banyak memori untuk menyimpan tumpukan fungsi (stack).
 
 
-#5.3 Menghitung Hasil Pangkat dengan Algoritma Brute Force dan Divide and Conquer
-###5.3.2. Verifikasi Hasil Percobaan
+# 5.3 Menghitung Hasil Pangkat dengan Algoritma Brute Force dan Divide and Conquer
+### 5.3.2. Verifikasi Hasil Percobaan
 
 ![Screenshot](images/5.3.2.png)
-###5.3.3. Pertanyaan
+
+### 5.3.3. Pertanyaan
 1. Jelaskan mengenai perbedaan 2 method yang dibuat yaitu ```pangkatBF()``` dan ```pangkatDC()```!
 
 ```pangkatBF()```: Menyelesaikan perpangkatan dengan cara iteratif atau perulangan linier.
@@ -75,12 +76,12 @@ Cara Kerja ```pangkatBF()```: Program melakukan perulangan dari 0 sampai n-1. Di
 
 Cara Kerja ```pangkatDC()```: Masalah dipecah menjadi setengahnya secara terus menerus. Jika pangkatnya ganjil, hasil bagi dua dikalikan lagi dengan basisnya.
 
-#5.4 Menghitung Sum Array dengan Algoritma Brute Force dan Divide and Conquer
-###5.4.2. Verifikasi Hasil Percobaan
+# 5.4 Menghitung Sum Array dengan Algoritma Brute Force dan Divide and Conquer
+### 5.4.2. Verifikasi Hasil Percobaan
 
 ![Screenshot](images/5.4.2.png)
 
-###5.4.3. Pertanyaan
+### 5.4.3. Pertanyaan
 1. Kenapa dibutuhkan variable mid pada method ```TotalDC()```?
   Variabel ```mid``` dibutuhkan untuk menentukan titik tengah dari jangkauan array.
 
@@ -101,6 +102,6 @@ Cara Kerja ```pangkatDC()```: Masalah dipecah menjadi setengahnya secara terus m
 5. Tarik Kesimpulan tentang cara kerja ```totalDC()```
     Method ```totalDC()``` bekerja dengan membagi array secara terus-menerus menjadi dua bagian hingga mencapai Base Case. lalu dikembalikan ke atas dan dijumlahkan tahap demi tahap hingga menghasilkan total akhir.
 
-###4.5 Latihan Praktikum
+### 4.5 Latihan Praktikum
 
 ![Screenshot](images/5.5.png)
