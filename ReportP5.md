@@ -13,24 +13,24 @@
 
 ![Screenshot](images/5.2.2.png)
 
-## 5.2.3. Pertanyaan
-# 1. Pada base line Algoritma Divide Conquer untuk melakukan pencarian nilai faktorial, jelaskan
+### 5.2.3. Pertanyaan
+#### 1. Pada base line Algoritma Divide Conquer untuk melakukan pencarian nilai faktorial, jelaskan
 perbedaan bagian kode pada penggunaan if dan else!
 
 ```if (n == 1)``` berguna untuk menghentikan kode agar tidak terjadi infinite recursion
 ```else``` berguna untuk memecah masalah besar menjadi lebih kecil
 
-# 2. Apakah memungkinkan perulangan pada method ```faktorialBF()``` diubah selain menggunakan
+#### 2. Apakah memungkinkan perulangan pada method ```faktorialBF()``` diubah selain menggunakan
 for? Buktikan!
 
 ![Screenshot](images/5.2.3.2.png)
 
-# 3. Jelaskan perbedaan antara ```fakto *= i;``` dan ```int fakto = n * faktorialDC(n-1);``` !
+#### 3. Jelaskan perbedaan antara ```fakto *= i;``` dan ```int fakto = n * faktorialDC(n-1);``` !
 
 ```fakto *= i``` dilakukan di dalam sebuah perulangan
 ```int fakto = n * faktorialDC(n-1)``` melakukanpemanggilan fungsi baru sebelum perkalian selesai dilakukan.
 
-# 4. Buat Kesimpulan tentang perbedaan cara kerja method ```faktorialBF()``` dan ```faktorialDC()```!
+#### 4. Buat Kesimpulan tentang perbedaan cara kerja method ```faktorialBF()``` dan ```faktorialDC()```!
 ```faktorialBF()``` (Brute Force): Menggunakan cara iteratif (perulangan). Masalah diselesaikan secara langsung dengan mengalikan angka satu demi satu dari awal sampai akhir. Lebih hemat memori karena tidak ada penumpukan pemanggilan fungsi.
 
 ```faktorialDC()``` (Divide & Conquer): Menggunakan cara rekursif (pemanggilan diri sendiri). Masalah besar dipecah menjadi bagian-bagian kecil sampai yang terkecil (base case), lalu hasilnya digabungkan kembali. Penulisan kode lebih ringkas namun menggunakan lebih banyak memori untuk menyimpan tumpukan fungsi (stack).
