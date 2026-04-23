@@ -54,10 +54,15 @@ class Peminjaman {
         hitungDenda();
     }
 
+    //jawaban no 3A
     public void hitungDenda() {
         if (lamaPinjam > batasPinjam) {
             terlambat = lamaPinjam - batasPinjam;
-            denda = terlambat * 2000;
+            int dendaAwal = terlambat * 2000;
+
+            if (buku.tahunTerbit<2021){
+                denda=dendaAwal/2;
+            }
         } else {
             terlambat = 0;
             denda = 0;
@@ -70,7 +75,10 @@ class Peminjaman {
             "Lama: " + lamaPinjam, " Hari", 
             "Terlambat: " + terlambat, 
             "Denda: " + denda);
-}
+            
+        
+    }
+
 }
 
 //sistem
@@ -78,6 +86,7 @@ public class SistemPeminjaman {
     Mahasiswa[] daftarMhs;
     Buku[] daftarBuku;
     Peminjaman[] daftarPinjam;
+    
 
     //inisialisasi data
     public void inisialisasiData() {
@@ -102,6 +111,7 @@ public class SistemPeminjaman {
                 new Peminjaman(daftarMhs[0], daftarBuku[1], 4)
         };
     }
+    
 
     public void tampilSemuaMahasiswa() {
         for (Mahasiswa m : daftarMhs) {
@@ -154,7 +164,7 @@ public class SistemPeminjaman {
         int foundIndex = -1;
 
         while (left <= right) {
-            int mid = left + (right - left) / 2;
+            int mid = left + (right - left)/2;
             int cmp = daftarPinjam[mid].mhs.nim.compareTo(nimCari);
 
             if (cmp == 0) {
@@ -185,4 +195,47 @@ public class SistemPeminjaman {
             System.out.println("Data peminjaman dengan NIM " + nimCari + " tidak ditemukan.");
         }
     }
+
+    //jawaban sesi 3B
+    public void updateLamaPinjam(String nimCari, int lamaBaru) {
+        //urutkan utk binary searcj
+        for (int i = 1; i < daftarPinjam.length; i++) {
+            Peminjaman key = daftarPinjam[i];
+            int j = i - 1;
+            while (j >= 0 && daftarPinjam[j].mhs.nim.compareTo(key.mhs.nim) > 0) {
+                daftarPinjam[j + 1] = daftarPinjam[j];
+                j = j - 1;
+            }
+            daftarPinjam[j + 1] = key;
+        }
+
+        //cari index
+        int left = 0, right = daftarPinjam.length - 1;
+        int foundIndex = -1;
+        while (left <= right) {
+            int mid = left + (right - left)/2;
+            int cmp = daftarPinjam[mid].mhs.nim.compareTo(nimCari);
+            if (cmp == 0) {
+                foundIndex = mid;
+                break;
+            } else if (cmp < 0) left = mid + 1;
+            else right = mid - 1;
+        }
+
+        //update jika temu
+        if (foundIndex != -1) {
+            
+            daftarPinjam[foundIndex].lamaPinjam = lamaBaru;
+            
+            daftarPinjam[foundIndex].hitungDenda(); 
+
+            System.out.println("\n--- Data Berhasil Diupdate ---");
+            daftarPinjam[foundIndex].tampilPeminjaman();
+        } else {
+            System.out.println("NIM tidak ditemukan!");
+        }
+    }
+
+
+   
 }

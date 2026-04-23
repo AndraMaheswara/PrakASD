@@ -18,6 +18,7 @@ public class SistemPeminjamanMain {
             System.out.println("3. Tampilkan Peminjaman");
             System.out.println("4. Urutkan Berdasarkan Denda");
             System.out.println("5. Cari Berdasarkan NIM");
+            System.out.println("6. Update Data");
             System.out.println("0. Keluar");
             System.out.print("Pilih: ");
             pilihan = scanner.nextInt();
@@ -46,6 +47,16 @@ public class SistemPeminjamanMain {
                     String nimCari = scanner.nextLine();
                     sistem.cariBerdasarkanNIM(nimCari);
                     break;
+
+                //jawaban sesi 3B
+                case 6: 
+                    System.out.print("Masukkan NIM yang akan diupdate: ");
+                    String nimUpdate = scanner.nextLine();
+                    System.out.print("Masukkan Lama Pinjam Baru (hari): ");
+                    int baru = scanner.nextInt();
+                    sistem.updateLamaPinjam(nimUpdate, baru);
+                    break;
+                    
                 case 0:
                     System.out.println("Terima kasih telah menggunakan sistem ini.");
                     break;
