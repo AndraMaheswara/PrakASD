@@ -6,10 +6,10 @@
 | Kelas | TI - 1F |
 | Repository | (https://github.com/AndraMaheswara/PrakASD) |
 
-##2.1 Percobaan 1: Mahasiswa Mengumpulkan Tugas
+## 2.1 Percobaan 1: Mahasiswa Mengumpulkan Tugas
 (image)
 
-###2.1.3 Pertanyaan
+### 2.1.3 Pertanyaan
 **1. Lakukan perbaikan pada kode program, sehingga keluaran yang dihasilkan sama dengan verifikasi
 hasil percobaan! Bagian mana yang perlu diperbaiki?**
 
@@ -160,10 +160,10 @@ public class StackTugasMahasiswa {
 }
 ```
 
-##2.2.1 Langkah-langkah Percobaan
+## 2.2.1 Langkah-langkah Percobaan
 (image2)
 
-###2.2.3 Pertanyaan
+### 2.2.3 Pertanyaan
 **1. Jelaskan alur kerja dari method konversiDesimalKeBiner!**
 Method konversiDesimalKeBiner berfungsi mengubah bilangan desimal (berbasis 10) menjadi bilangan biner (berbasis 2) dengan memanfaatkan struktur data Stack dari class StackKonversi. Alur kerjanya adalah sebagai berikut:
 
