@@ -4,31 +4,31 @@ public class BinaryTreeArray27 {
     Mahasiswa27[] dataMahasiswa;
     int idxLast;
 
-    // Constructor default sesuai petunjuk jobsheet
     public BinaryTreeArray27() {
         this.dataMahasiswa = new Mahasiswa27[10];
-        this.idxLast = -1; // -1 menandakan array awalnya benar-benar kosong
+        this.idxLast = -1; // -1 menandakan array awalnya kosong
     }
 
-    // Method dari Percobaan 2 untuk mengisi data secara massal
     void populateData(Mahasiswa27 dataMhs[], int idxLast) {
         this.dataMahasiswa = dataMhs;
         this.idxLast = idxLast;
     }
 
-    // Method dari Percobaan 2: Penelusuran In-Order (Kiri - Root - Kanan)
     void traverseInOrder(int idxStart) {
         if (idxStart <= idxLast) {
             if (dataMahasiswa[idxStart] != null) {
                 traverseInOrder(2 * idxStart + 1); // Ke anak kiri
-                dataMahasiswa[idxStart].tampilInformasi(); // Cetak data parent
+                dataMahasiswa[idxStart].tampilInformasi(); // Cetak root/parent
                 traverseInOrder(2 * idxStart + 2); // Ke anak kanan
             }
         }
     }
 
-
-    // Method add() untuk memasukkan data mahasiswa ke indeks kosong berikutnya
+    // =========================================================================
+    // TUGAS 4: Modifikasi Tambahan Method add() dan traversePreOrder()
+    // =========================================================================
+    
+    // Method untuk memasukkan data ke indeks array berikutnya yang kosong
     public void add(Mahasiswa27 data) {
         if (idxLast < dataMahasiswa.length - 1) {
             idxLast++;
@@ -38,13 +38,13 @@ public class BinaryTreeArray27 {
         }
     }
 
-    // Method traversePreOrder() untuk penelusuran (Root - Kiri - Kanan)
+    // Method untuk melakukan penelusuran Pre-Order (Root - Kiri - Kanan)
     public void traversePreOrder(int idxStart) {
         if (idxStart <= idxLast) {
             if (dataMahasiswa[idxStart] != null) {
-                dataMahasiswa[idxStart].tampilInformasi(); // Cetak Root/Parent terlebih dahulu
-                traversePreOrder(2 * idxStart + 1);       // Pindah ke anak kiri
-                traversePreOrder(2 * idxStart + 2);       // Pindah ke anak kanan
+                dataMahasiswa[idxStart].tampilInformasi(); // Cetak Parent terlebih dahulu
+                traversePreOrder(2 * idxStart + 1);       // Masuk ke anak kiri
+                traversePreOrder(2 * idxStart + 2);       // Masuk ke anak kanan
             }
         }
     }

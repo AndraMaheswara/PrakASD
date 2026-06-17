@@ -104,7 +104,6 @@ public class BinaryTree27 {
             return;
         }
 
-        // Cari node (current) yang akan dihapus beserta parent-nya
         Node27 parent = root;
         Node27 current = root;
         boolean isLeftChild = false;
@@ -123,12 +122,11 @@ public class BinaryTree27 {
             }
         }
 
-        // Proses Penghapusan
         if (current == null) {
             System.out.println("Data tidak ditemukan");
             return;
         } else {
-            // Kasus 1: Jika tidak ada anak (leaf node)
+            // Kasus 1: Leaf Node
             if (current.left == null && current.right == null) {
                 if (current == root) {
                     root = null;
@@ -140,7 +138,7 @@ public class BinaryTree27 {
                     }
                 }
             } 
-            // Kasus 2a: Jika hanya punya 1 anak kanan
+            // Kasus 2a: 1 Anak Kanan
             else if (current.left == null) {
                 if (current == root) {
                     root = current.right;
@@ -152,7 +150,7 @@ public class BinaryTree27 {
                     }
                 }
             } 
-            // Kasus 2b: Jika hanya punya 1 anak kiri
+            // Kasus 2b: 1 Anak Kiri
             else if (current.right == null) {
                 if (current == root) {
                     root = current.left;
@@ -164,7 +162,7 @@ public class BinaryTree27 {
                     }
                 }
             } 
-            // Kasus 3: Jika memiliki 2 anak
+            // Kasus 3: 2 Anak
             else {
                 Node27 successor = getSuccessor(current);
                 System.out.println("Jika 2 anak, current = ");
@@ -184,7 +182,9 @@ public class BinaryTree27 {
         }
     }
 
-
+  
+    // TUGAS 1: Menambahkan node baru secara REKURSIF
+  
     public void addRekursif(Mahasiswa27 mahasiswa) {
         root = addRekursif(root, mahasiswa);
     }
@@ -202,7 +202,8 @@ public class BinaryTree27 {
         return current;
     }
 
-
+    // TUGAS 2: Menampilkan Nilai IPK Terkecil dan Terbesar
+ 
     public void cariMinIPK() {
         if (isEmpty()) {
             System.out.println("Tree kosong!");
@@ -210,7 +211,7 @@ public class BinaryTree27 {
         }
         Node27 current = root;
         while (current.left != null) {
-            current = current.left; // IPK terkecil selalu berada di paling kiri bawah
+            current = current.left; // IPK terkecil berada di ujung cabang kiri
         }
         System.out.print("IPK Terkecil -> ");
         current.mahasiswa.tampilInformasi();
@@ -223,13 +224,15 @@ public class BinaryTree27 {
         }
         Node27 current = root;
         while (current.right != null) {
-            current = current.right; // IPK terbesar selalu berada di paling kanan bawah
+            current = current.right; // IPK terbesar berada di ujung cabang kanan
         }
         System.out.print("IPK Terbesar -> ");
         current.mahasiswa.tampilInformasi();
     }
 
- 
+  
+    // TUGAS 3: Menampilkan Mahasiswa dengan IPK di atas batas tertentu
+   
     public void tampilMahasiswaIPKDiAtas(double ipkBatas) {
         System.out.println("Daftar Mahasiswa dengan IPK > " + ipkBatas + " :");
         tampilIPKDiAtas(root, ipkBatas);
