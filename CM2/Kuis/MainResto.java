@@ -6,7 +6,6 @@ public class MainResto {
     public static void main(String[] args) {
         DoubleLinkedListAntrean listAntrean = new DoubleLinkedListAntrean();
         DoubleLinkedListPesanan listPesanan = new DoubleLinkedListPesanan();
-        LinkedListRekapAntrian listRekap = new LinkedListRekapAntrian();
         Scanner scan = new Scanner(System.in);
         int autoNoAntrean = 1;
         int pilih;
