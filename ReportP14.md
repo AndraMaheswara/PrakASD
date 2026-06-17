@@ -52,3 +52,10 @@ Terakhir, anak kiri dari node yang dihapus dipasangkan ke suksesor (successor.le
 
 Bagaimana getSuccessor() membantu?
 Method ini membantu menjaga agar struktur dan aturan BST tidak rusak. Dengan memilih nilai terkecil di sub-tree kanan, kita mendapatkan nilai yang pasti lebih besar dari semua node di sub-tree kiri, namun tetap lebih kecil dari sisa node di sub-tree kanan.
+
+___
+
+## 14.2 Kegiatan Praktikum 1 Implementasi Binary Search Tree menggunakan Linked List
+![Screenshot](images/P14_1.png)
+
+### 14.2.2 Pertanyaan
